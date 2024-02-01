@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+</head>
+<style>
+    .sub1{
+        background-color: dodgerblue;
+        border-radius: 2px;
+        color: white;
+    }
+    td{
+    
+        padding-bottom: 10px;
+    }
+    th{
+        float:right;
+        text-align: end;
+    }
+</style>
+<body>
+    <h2><center>survey form</center></h2>
+    <form>
+        <center>
+        <fieldset>
+            <table>
+            <legend>let us know how we can improve</legend>
+            <tr ><th >Name: </th><td><input type="text" name="name" id="" placeholder="full name"></td></tr>
+            <tr><th>Email:</th><td> <input type="email" name="email" id="" placeholder="aaaaa@gmail.com"></td></tr>
+            <tr><th>PhNo: </th><td><input type="tel" name="phno" id="" placeholder=" +91 xxxxxxxxxx "></td></tr>
+            <tr><th>Age: </th><td><input type="number" name="Age" id=""placeholder="age"></td></tr>
+            <tr><th></th><td><input type="file" name="openfile" id=""></td></tr>
+            <tr><th>Which option best discribe your current role: </th><td><select name="role" id="">
+                <option>student</option>
+                <option>teacher</option>
+                <option>non teaching</option>
+            </select></td></tr>
+            <tr><th>how would likely you would recommand this<br> program to friend: </th><td><input type="radio" name="ref" id="">Definatly<br><input type="radio" name="ref" id="">Maybe<br><input type="radio" name="ref" id="">Not sure<br></td></tr>
+            <tr><th>what would you like most here: </th><td><select name="insters" id="">
+                <option>ambiance</option>
+                <option>teaching</option>
+                <option>matrials</option>
+            </select></td></tr>
+            <tr><th>Things we should improve ikn future</th><td><input type="checkbox" name="fut1" id="">Fornt-end devalapor<br><input type="checkbox" name="fut2" id="">back-end projects<br><input type="checkbox" name="ref" id="">Data visualization</td></tr>
+            <tr><th>Any commands or suggestions </th><td><textarea rows="3" cols="13" placeholder="enter your command here"></textarea></td></tr>
+        </table>
+        <input type="submit" value="submit" id="sub1">
+        </fieldset></center>
+    </form>
+    
+</body>
+</html>
